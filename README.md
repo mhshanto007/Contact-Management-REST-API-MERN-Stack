@@ -34,30 +34,35 @@ This project includes user authentication (JWT), protected routes, and a fully f
 ---
 
 ## Project Structure
-Contact-Management-REST-API-MERN-Stack-Contact-Management-REST-API-MERN-Stack/
+
+```text
+Contact-Management-REST-API-MERN-Stack/
 │
 ├── controllers/
-│ ├── contactController.js
-│ └── userController.js
+│   ├── contactController.js
+│   └── userController.js
 │
 ├── middleware/
-│ └── authMiddleware.js
+│   └── authMiddleware.js
 │
 ├── models/
-│ ├── Contact.js
-│ └── User.js
+│   ├── Contact.js
+│   └── User.js
 │
 ├── routes/
-│ ├── contactRoutes.js
-│ └── userRoutes.js
+│   ├── contactRoutes.js
+│   └── userRoutes.js
 │
-└── frontend/
-  ├── index.html
-  ├── dashboard.html
-  ├── app.js
-  └── style.css
-
-
+├── frontend/
+│   ├── index.html
+│   ├── dashboard.html
+│   ├── app.js
+│   └── style.css
+│
+├── .env
+├── server.js
+├── package.json
+└── README.md
 ---
 
 ## Installation
